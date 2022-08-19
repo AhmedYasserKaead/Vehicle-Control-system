@@ -22,31 +22,38 @@ int main(void){
 	setbuf(stdout, NULL);	// Fix for not printing.
 
 	/* Asking the User to make an action. */
-	printf("Would you like to:\n");
+	input = first_question(input);
+	
+/*	printf("Would you like to:\n");
 	printf("\"a. Turn on the vehicle engine\" or ");
 	printf("\"b. Turn off the vehicle engine\" or ");
 	printf("\"c. Quit the system\"\n\n ");
-	scanf(" %c", &input);
+	scanf(" %c", &input);*/
+	
 	while(input < 100)
 	{
 		if(input == 'c'){
-			printf("Would you like to:\n");
+/*			printf("Would you like to:\n");
 			printf("\"a. Turn on the vehicle engine\" or ");
 			printf("\"b. Turn off the vehicle engine\" or ");
 			printf("\"c. Quit the system\"\n\n ");
-			scanf(" %c", &input);
+			scanf(" %c", &input);*/
+			
+			input = first_question(input);
+			
 			if(input == 'c')
 			{
-				printf("%s", state[3]);
+				printf("%s", state[2]);
+				goto END;
 			}
 			else if(input == 'a')
 			{
-				printf("%s", state[1]);
+				printf("%s", state[0]);
 				goto ON;
 			}
 			else if(input == 'b')
 			{
-				printf("%s", state[2]);
+				printf("%s", state[1]);
 				goto OFF;
 			}
 
@@ -60,7 +67,7 @@ int main(void){
 	}
 
 OFF:
-
+END:
 	return 0;
 }
 
