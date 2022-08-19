@@ -70,12 +70,11 @@ int main(void){
 			printf("off off off b");
 			break;
 		}
-		
-/*		else if((input != 'a') || (input != 'b') || (input != 'c'))
+		else if((input != 'a') || (input != 'b') || (input != 'c'))
 		{
 			printf("INVALID INPUT!!! Please enter the letters beside the choice you want.");
 		}   
-		*/
+		
 	}
 
 OFF:
