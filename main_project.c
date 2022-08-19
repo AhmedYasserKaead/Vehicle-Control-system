@@ -77,7 +77,6 @@ int main(void){
 		
 	}
 
-OFF:
 END:
 	return 0;
 }
