@@ -64,6 +64,18 @@ int main(void){
 			printf("YES");
 			break;
 		}
+		else if(input == 'b')
+		{
+			OFF:
+			printf("off off off b");
+			break;
+		}
+		
+/*		else if((input != 'a') || (input != 'b') || (input != 'c'))
+		{
+			printf("INVALID INPUT!!! Please enter the letters beside the choice you want.");
+		}   
+		*/
 	}
 
 OFF:
