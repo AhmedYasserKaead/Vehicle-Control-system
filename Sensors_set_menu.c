@@ -20,6 +20,7 @@ u_int8 Sensors_set_menu(u_int8 sensors_set_menu_choice){
 
 	printf("\nChoose one of the above settings: \n");
 	scanf(" %c", &sensors_set_menu_choice);
+	printf("\n");
 
 	return sensors_set_menu_choice;
 

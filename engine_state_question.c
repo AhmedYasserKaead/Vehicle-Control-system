@@ -14,11 +14,12 @@
 u_int8 engine_state_question(u_int8 c){
 
 	printf("Would you like to:\n");
-	printf("\"a. Turn on the vehicle engine\" or ");
-	printf("\"b. Turn off the vehicle engine\" or ");
-	printf("\"c. Quit the system\"\n\n ");
+	printf("\" a. Turn on the vehicle engine. \"\n");
+	printf("\" b. Turn off the vehicle engine. \"\n");
+	printf("\" c. Quit the system. \"\n\n");
 
 	scanf(" %c", &c);
+	printf("\n");
 
 	return c;
 }

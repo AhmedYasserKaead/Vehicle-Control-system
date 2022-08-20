@@ -9,15 +9,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "datatypes.h"
-
+#include "Bool_state.h"
 
 
 void AC_State(u_int8 AC){
 	switch (AC){				/* AC is ON or OFF. */
-	case 0:
+	case OFF:
 		printf("AC: OFF\n");
 		break;
-	case 1:
+	case ON:
 		printf("AC: ON\n");
 		break;
 	default:

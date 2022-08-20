@@ -8,15 +8,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "datatypes.h"
-
+#include "Bool_state.h"
 
 void Engine_State(u_int8 Engine_state)
 {
 	switch (Engine_state){		/* Engine is ON or OFF. */
-	case 0:
+	case OFF:
 		printf("Engine state: OFF\n");
 		break;
-	case 1:
+	case ON:
 		printf("Engine state: ON\n");
 		break;
 	default:

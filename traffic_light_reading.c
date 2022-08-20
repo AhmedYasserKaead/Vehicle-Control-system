@@ -15,8 +15,8 @@ u_int8 traffic_light_reading(u_int8 traffic_light){
 
 	printf("		** Traffic light color menu ** \n");
 
-	printf("Please enter the traffic light data: ");
+	printf("Please enter one of the Traffic light colors (G, O, R):\n ");
 	scanf(" %c", &traffic_light);
-
+	printf("\n");
 	return traffic_light;
 }
