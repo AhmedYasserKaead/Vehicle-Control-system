@@ -9,7 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <setjmp.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 u_int16 Traffic_Light_Decision(u_int8 traffic_light){
 
@@ -17,12 +18,15 @@ u_int16 Traffic_Light_Decision(u_int8 traffic_light){
 	switch (traffic_light)
 	{
 	case 'G':					/* Reads Green light. */
+	case 'g':
 		speed = 100;
 		break;
 	case 'O':					/* Reads Orange light. */
+	case 'o':
 		speed = 30;
 		break;
 	case 'R':					/* Reads Red light. */
+	case 'r':
 		speed = 0;
 		break;
 	default:

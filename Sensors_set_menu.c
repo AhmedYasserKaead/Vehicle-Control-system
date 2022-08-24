@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 /* The menu of all sensor settings that will remain displayed until the user enters the required values. */
 u_int8 Sensors_set_menu(u_int8 sensors_set_menu_choice){

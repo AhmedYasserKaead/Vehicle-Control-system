@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 
 /* It's supposed to be sensor, but for now it will take the engin temperature from the user. */

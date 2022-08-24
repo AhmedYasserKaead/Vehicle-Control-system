@@ -7,8 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
 #include "Bool_state.h"
+#include "Datatypes.h"
 
 void Room_temp_controller(f_32 *room_temp, u_int8 *AC){
 

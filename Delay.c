@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 
 /* A delay function that will allow the user to read the current state comfortably. */

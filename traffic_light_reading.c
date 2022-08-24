@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 
 /* The traffic light settings that takes the color of the traffic light from the user*/

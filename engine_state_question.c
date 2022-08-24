@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "datatypes.h"
+
+#include "Datatypes.h"
 
 
 /* The opening question/statement of the program. */
